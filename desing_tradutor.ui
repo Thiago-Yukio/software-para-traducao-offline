@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>420</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>420</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="titulo_tradutor">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TRADUTOR</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_idioma_texto">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Idioma do Texto:</string>
+      </property>
+      <widget class="QRadioButton" name="botao_portugues_it">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>51</y>
+         <width>107</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Português</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="botao_espanhol_it">
+       <property name="geometry">
+        <rect>
+         <x>133</x>
+         <y>51</y>
+         <width>99</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Espanhol</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="botao_ingles_it">
+       <property name="geometry">
+        <rect>
+         <x>254</x>
+         <y>51</y>
+         <width>74</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Inglês</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="caixa_texto">
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>400</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_transcricao_texto">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Transcrição do Texto:</string>
+      </property>
+      <widget class="QRadioButton" name="botao_portugues_tt">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>51</y>
+         <width>107</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Português</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="botao_espanhol_tt">
+       <property name="geometry">
+        <rect>
+         <x>133</x>
+         <y>51</y>
+         <width>99</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Espanhol</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="botao_ingles_tt">
+       <property name="geometry">
+        <rect>
+         <x>254</x>
+         <y>51</y>
+         <width>74</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Inglês</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="caixa_texto_2">
+      <property name="minimumSize">
+       <size>
+        <width>401</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>401</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="botao_traduzir">
+      <property name="font">
+       <font>
+        <family>Arial Narrow</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TRADUZIR</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
