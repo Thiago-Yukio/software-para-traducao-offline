@@ -1,0 +1,1 @@
+# software-para-traducao-offline
